@@ -10,12 +10,12 @@ function navbar() {
   return (
     <>
       {['md' ].map((expand) => (
-        <div className='menu container' >
+        <div className=' container fixed-top' >
         <Navbar key={expand}  expand={expand} className="mb-3">
-          <Container fluid>
+          <Container fluid >
             <Navbar.Brand href="#"><img id='Logo' src={Logo} />Engenharia & Automacao</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-            <Navbar.Offcanvas
+            <Navbar.Offcanvas className='menu'
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
@@ -26,7 +26,7 @@ function navbar() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav className="justify-content-end flex-grow-1 pe-3" bg="dark">
                   <Nav.Link href="#action1">Inicio</Nav.Link>
                   <Nav.Link href="#action2">Quem Somos</Nav.Link>
                   <Nav.Link href="#action2">Atuacao</Nav.Link>

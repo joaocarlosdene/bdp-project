@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+.titulo{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(207, 38, 38);
+    text-shadow: black 1px 1px 2px;
+    font-weight: bold;
+}
