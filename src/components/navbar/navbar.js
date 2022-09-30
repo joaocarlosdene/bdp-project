@@ -1,19 +1,25 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Logo from '../../images/logo.png';
-import '../navbar/style.css'
-
+import Style from '../navbar/navbar.module.css'
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 function navbar() {
   return (
     <>
+      <Router>
       {['md' ].map((expand) => (
-        <div className=' container fixed-top' >
+        <div className=' container' >
         <Navbar key={expand}  expand={expand} className="mb-3">
           <Container fluid >
-            <Navbar.Brand href="#"><img id='Logo' src={Logo} />Engenharia & Automacao</Navbar.Brand>
+            <Navbar.Brand href="#"><img className={Style.logo} src={Logo} />Engenharia & Automacao</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas className='menu'
               id={`offcanvasNavbar-expand-${expand}`}
@@ -22,22 +28,37 @@ function navbar() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                <img id='Logo' src={Logo} />
+                <img className={Style.logo} src={Logo} />
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3" bg="dark">
-                  <Nav.Link href="#action1">Inicio</Nav.Link>
-                  <Nav.Link href="#action2">Quem Somos</Nav.Link>
-                  <Nav.Link href="#action2">Atuacao</Nav.Link>
-                  <Nav.Link href="#action2">Contato</Nav.Link>
+                  <Nav.Link to="/">Inicio</Nav.Link>
+                  <Nav.Link to="/quem-somos">Quem Somos</Nav.Link>
+                  <Nav.Link to="/atuacao">Atuacao</Nav.Link>
+                  <Nav.Link to="/contato">Contato</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
         </Navbar>
+        <Switch>
+          <Route path="/">
+            
+          </Route>
+          <Route path="/quem-somos">
+            
+          </Route>
+          <Route path="/atuacao">
+            
+          </Route>
+          <Route path="/contato">
+            
+          </Route>
+        </Switch>
         </div>
       ))}
+      </Router>
     </>
   );
 }

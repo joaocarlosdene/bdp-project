@@ -1,6 +1,7 @@
 .fig {
+    position: relative;
     padding: 1rem;
     border-radius: 50%;
-    border-color: brown;
     background-color: black;
+    width:20px;
 }

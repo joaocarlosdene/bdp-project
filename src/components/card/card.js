@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import {faBuilding} from '@fortawesome/free-regular-svg-icons'
-import '../card/style.css'
+import '../card/card.css'
 
 function Cards(props) {
   return (

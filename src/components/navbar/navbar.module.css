@@ -1,7 +1,5 @@
-.fixed-top{
-    background-color: rgba(255, 255, 255, 0.842);
-}
-#Logo{
+
+.logo{
     width: 100px;
     height: 80px;
     margin-right: 1rem;

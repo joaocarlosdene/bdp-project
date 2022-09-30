@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/navbar/index'
-import Carousel from './components/carousel';
-import Cards from '../src/components/card/index';
+import Navbar from './components/navbar/navbar'
+import Carousel from './components/carousel/carousel';
+import Cards from './components/card/card';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import Titulo from './components/titulo';
+import Titulo from './components/titulo/titulo';
 
 
 function App(){

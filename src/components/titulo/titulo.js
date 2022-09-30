@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import '../titulo/style.css'
+import '../titulo/titulo.css'
 
 function Titulo(props) {
   return (
