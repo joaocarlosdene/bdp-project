@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
 
+.container{
+    background-color: whitesmoke;
+}
+.engenharia{
+    position: relative;
+    color: rgb(68, 68, 68);
+    font-weight: 500;
+}
+.link{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
 .logo{
     width: 100px;
     height: 80px;
-    margin-right: 1rem;
-    margin-top: -1rem;
-    margin-bottom: -1rem;
+    margin-right: 0.3rem;
+    margin-top: -1.2rem;
 }

@@ -3,5 +3,9 @@
     padding: 1rem;
     border-radius: 50%;
     background-color: black;
-    width:20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-width: medium;
+    border-style: solid;
+    border-color: #00f;
 }
