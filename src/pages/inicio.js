@@ -1,11 +1,13 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from '../navbar/navbar'
-import Carousel from '../carousel/carousel';
-import Cards from '../card/card';
+import Navbar from '../components/navbar/navbar'
+import Carousel from '../components/carousel/carousel';
+import Cards from '../components/card/card';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import Titulo from '../titulo/titulo';
+import Titulo from '../components/titulo/titulo';
+import Footer from "../components/footer/footer";
+
 
 function inicio(){
     return(
@@ -21,6 +23,7 @@ function inicio(){
                     </Row>
                     
                 </Container>
+                <Footer/>
         </>
     )  
 }

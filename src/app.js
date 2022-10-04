@@ -1,8 +1,8 @@
 
-import Inicio from './components/pages/inicio';
-import Quem_somos from './components/pages/quem_somos';
-import Atuacao from './components/pages/atuacao';
-import Contato from './components/pages/contato';
+import Inicio from './pages/inicio';
+import Quem_somos from './pages/quem_somos';
+import Atuacao from './pages/atuacao';
+import Contato from './pages/contato';
 import {Route,Routes} from "react-router-dom";
 
 function App(){

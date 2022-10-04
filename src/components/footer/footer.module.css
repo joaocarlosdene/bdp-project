@@ -1,0 +1,29 @@
+
+.background{
+    background: rgb(31,50,85);
+background: linear-gradient(180deg, rgba(31,50,85,1) 0%, rgba(25,33,65,1) 50%, rgba(12,30,64,1) 100%);
+    padding: 3.5rem;
+    color: white;
+    margin-top: 3rem;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.input{
+    width: 90%;
+}
+.col{
+    margin-bottom: 3rem;
+    
+}
+.span{
+    color: White;
+    text-transform: uppercase;
+}
+.h3{
+    font-weight: bold;
+}
