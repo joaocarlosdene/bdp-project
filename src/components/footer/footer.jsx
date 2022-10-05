@@ -9,7 +9,7 @@ import React  from 'react';
 function Footer() {
     return (
       <div className={Style.background}>
-        <Container >
+        
         <Row className="justify-content-center">
         <Col md={3} className={Style.col}>
         <h3 className={Style.h3}>Sobre a Empresa</h3>
@@ -50,7 +50,7 @@ function Footer() {
         </Row>
         <hr/>
         <p className="text-center">Copyright © 2022 Techat Engenharia | Todos Direitos Reservados</p>
-        </Container>
+        
       </div>
     );
   }

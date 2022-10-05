@@ -1,10 +1,11 @@
 
 .background{
     background: rgb(31,50,85);
-background: linear-gradient(180deg, rgba(31,50,85,1) 0%, rgba(25,33,65,1) 50%, rgba(12,30,64,1) 100%);
+    background: linear-gradient(180deg, rgba(31,50,85,1) 0%, rgba(25,33,65,1) 50%, rgba(12,30,64,1) 100%);
     padding: 3.5rem;
     color: white;
     margin-top: 3rem;
+    width: 100%;
 }
 .link{
     text-decoration: none;
@@ -14,7 +15,7 @@ background: linear-gradient(180deg, rgba(31,50,85,1) 0%, rgba(25,33,65,1) 50%, r
     padding-bottom: 0.5rem;
 }
 .input{
-    width: 90%;
+    width: 100%;
 }
 .col{
     margin-bottom: 3rem;

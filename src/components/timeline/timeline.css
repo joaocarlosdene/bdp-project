@@ -7,6 +7,10 @@
     color: rgb(66, 66, 66);
     height: 8rem;
 }
+.vertical-timeline-element-title{
+    color: rgb(33, 150, 243);
+    text-transform: uppercase;
+}
 @media (max-width:1171px) {
     .analise{
         height: 14rem;

@@ -15,15 +15,15 @@ function navbar() {
         <div className={Style.container}>
         <Navbar  expand={'md'}  className=" container">
           <Container fluid >
-            <Navbar.Brand href="#"><img className={Style.logo} src={Logo} /><span className={Style.engenharia}> Engenharia & Automacao</span></Navbar.Brand>
-            <Navbar.Toggle  aria-controls={`offcanvasNavbar-expand-md`} />
-            <Navbar.Offcanvas className='menu'
+            <Navbar.Brand href='/' ><img className={Style.logo} src={Logo} /></Navbar.Brand>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
+            <Navbar.Offcanvas className='menu text-center'
               id={`offcanvasNavbar-expand-md`}
               aria-labelledby={`offcanvasNavbarLabel-expand-md`}
               placement="end"
             >
-              <Offcanvas.Header  closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
+              <Offcanvas.Header  closeButton >
+                <Offcanvas.Title  id={`offcanvasNavbarLabel-expand-md`}>
                 <img className={Style.logo} src={Logo} />
                 </Offcanvas.Title>
               </Offcanvas.Header>

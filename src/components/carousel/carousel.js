@@ -7,7 +7,7 @@ import React  from 'react';
 
 function CarouselFade() {
   return (
-    <Carousel fade interval={1000} className='carousel-layout'>
+    <Carousel fade interval={2000} className='carousel-layout'>
       <Carousel.Item>
         <img
             id='carousel-img'
@@ -15,8 +15,8 @@ function CarouselFade() {
           src={img1}
           alt="First slide"
         />
-        <Carousel.Caption className='titulo'>
-          <h3 id='main-title'>Quase 10 anos realizando sonhos.</h3>
+        <Carousel.Caption className='titulo-carousel'>
+          <h1 id='main-title'>Quase 10 anos realizando sonhos.</h1>
           <p id='main-p'>Possuimos os melhores profissionais para trazer o melhor aos nossos clientes.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -28,8 +28,8 @@ function CarouselFade() {
           alt="Second slide"
         />
 
-        <Carousel.Caption className='titulo'>
-          <h3 id='main-title'>Ganhe mais produtividade.</h3>
+        <Carousel.Caption className='titulo-carousel'>
+          <h1 id='main-title'>Ganhe mais produtividade.</h1>
           <p id='main-p'>Reconstruimos se necessario todo o processo da sua empresa.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -41,8 +41,8 @@ function CarouselFade() {
           alt="Third slide"
         />
 
-        <Carousel.Caption className='titulo'>
-          <h3 id='main-title'>Comprometimento e Responsabilidade</h3>
+        <Carousel.Caption className='titulo-carousel'>
+          <h1 id='main-title'>Comprometimento e Responsabilidade.</h1>
           <p id='main-p'>
             Deixe sua empresa nas maos de quem entende.
           </p>

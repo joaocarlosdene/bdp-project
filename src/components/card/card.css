@@ -1,9 +1,27 @@
 .fig {
     position: relative;
     padding: 1rem;
-    background-color: black;
-    border-width: medium;
-    border-style: solid;
-    border-color: #00f;
-
+    box-shadow: rgba(0, 0, 0, 0.219) 0px 5px 15px;
+    margin: 1.5rem;
+    border-radius: 10px;   
+    width: 90%;
+    color: #2196f3;
+    
 }
+.img-col{
+    position: relative;
+    width: 95%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    
+}
+.text{
+    text-decoration: none;
+    color: #2196f3;
+    
+}
+.fig:hover{
+    cursor: pointer;
+    color: #1667aa ;
+}
+
