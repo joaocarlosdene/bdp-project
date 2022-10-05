@@ -17,7 +17,7 @@ function timeline() {
                 icon={<FaHammer />}
             >
                 <h3 className="vertical-timeline-element-title">Analise Geral do Projeto</h3>
-                <p>Este é o momento de identificar os patrocinadores e participantes e começar a primeira fase de pesquisa. É também uma boa ideia documentar o projeto por escrito para que se possa facilmente distribuir o plano de comunicação ao resto da equipe. </p>
+                <p>Este é o momento de identificar os participantes e começar a primeira fase de pesquisa. É também uma boa ideia documentar o projeto por escrito para que se possa facilmente distribuir o plano de comunicação ao resto da equipe. </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work planejamento"
