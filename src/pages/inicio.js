@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Titulo from '../components/titulo/titulo';
 import Footer from "../components/footer/footer";
+import Timeline from '../components/timeline/timeline'
 
 
 function inicio(){
@@ -17,9 +18,7 @@ function inicio(){
                 <Container>
                     <Titulo titulo="Temos o melhor para voce!"/>
                     <Row>
-                    <Cards h3="titulo1"/>
-                    <Cards h3="titulo2"/>
-                    <Cards h3="titulo3"/>
+                    <Timeline/>
                     </Row>
                     
                 </Container>

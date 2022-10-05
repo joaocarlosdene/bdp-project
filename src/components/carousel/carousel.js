@@ -3,6 +3,7 @@ import img1 from '../../images/carousel1.png'
 import img2 from '../../images/carousel2.png'
 import img3 from '../../images/carousel3.png'
 import '../carousel/carousel.css'
+import React  from 'react';
 
 function CarouselFade() {
   return (

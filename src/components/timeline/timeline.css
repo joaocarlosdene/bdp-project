@@ -1,0 +1,37 @@
+
+.vertical-timeline::before{
+    background-color: rgba(46, 46, 46, 0.685);
+}
+
+.vertical-timeline-element--work{
+    color: rgb(66, 66, 66);
+    height: 8rem;
+}
+@media (max-width:1171px) {
+    .analise{
+        height: 14rem;
+    }
+    .planejamento{
+        height: 9.4rem;
+    }
+    .execucao{
+        height: 13.3rem;
+    }
+    .desempenho{
+        height: 12rem;
+    }
+}
+@media (max-width:700px) {
+    .analise{
+        height: 16rem;
+    }
+    .planejamento{
+        height: 11.4rem;
+    }
+    .execucao{
+        height: 15.3rem;
+    }
+    .desempenho{
+        height: 14rem;
+    }
+}

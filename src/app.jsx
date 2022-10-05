@@ -4,6 +4,7 @@ import Quem_somos from './pages/quem_somos';
 import Atuacao from './pages/atuacao';
 import Contato from './pages/contato';
 import {Route,Routes} from "react-router-dom";
+import React  from 'react';
 
 function App(){
     return(

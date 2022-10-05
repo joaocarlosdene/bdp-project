@@ -4,6 +4,7 @@ import Style from './footer.module.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
+import React  from 'react';
 
 function Footer() {
     return (
