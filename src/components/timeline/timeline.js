@@ -61,10 +61,13 @@ function timeline() {
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
+                contentStyle={{boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px'    }}
                 iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
                 icon={<FaCheck/>}
 
-            />
+            >
+                <h3 className="vertical-timeline-element-title">Projeto Concluido</h3>
+            </VerticalTimelineElement>
         </VerticalTimeline>
     )
 }
