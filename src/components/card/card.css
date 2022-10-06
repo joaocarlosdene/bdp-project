@@ -6,11 +6,10 @@
     border-radius: 10px;   
     width: 90%;
     color: #2196f3;
-    
 }
 .img-col{
     position: relative;
-    width: 95%;
+    width: 75%;
     border-radius: 10px;
     margin-bottom: 1rem;
     
@@ -18,7 +17,7 @@
 .text{
     text-decoration: none;
     color: #2196f3;
-    
+    text-align: center;
 }
 .fig:hover{
     cursor: pointer;

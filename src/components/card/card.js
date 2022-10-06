@@ -10,7 +10,7 @@ function Cards(props) {
         <Link className='text' to='/atuacao'>
           <img className='img-col' src={props.img}></img>
           <h3>{props.h3}</h3>
-          <p className='leia'>LEIA MAIS... </p>
+          <p className='leia'>{props.p}</p>
         </Link>
         
     </Col>

@@ -24,14 +24,14 @@ function inicio(){
                 <Container>
                     <Titulo titulo="Nossos Servicos"/>
                     <Row className="justify-content-center">
-                        <Cards img={img1} h3='Sistema de controle PLC, DCS e SCADA'/>
-                        <Cards img={img2} h3='Parametrizacao de Dispositivos Inteligentes'/>
-                        <Cards img={img3} h3='Dutos de Bombeio e Lubrificantes'/>
+                        <Cards img={img1} h3='Sistema de controle PLC, DCS e SCADA'p='LEIA MAIS...'/>
+                        <Cards img={img2} h3='Parametrizacao de Dispositivos Inteligentes' p='LEIA MAIS...'/>
+                        <Cards img={img3} h3='Dutos de Bombeio e Lubrificantes'p='LEIA MAIS...'/>
                     </Row>
                     <Row className="justify-content-center">
-                        <Cards img={img4} h3='Sistemas Mecânicos de Precisão'/>
-                        <Cards img={img5} h3='Sistemas Pneumáticos e Manutencao'/>
-                        <Cards img={img6} h3='Sistemas manipulação CNC por medida'/>
+                        <Cards img={img4} h3='Sistemas Mecânicos de Precisão' p='LEIA MAIS... '/>
+                        <Cards img={img5} h3='Sistemas Pneumáticos e Manutencao'p='LEIA MAIS...'/>
+                        <Cards img={img6} h3='Sistemas manipulação CNC por medida'p='LEIA MAIS...'/>
                     </Row>
                     <Titulo titulo="Temos o melhor para voce!"/>
                     <Timeline/>
