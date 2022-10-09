@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from '../../images/carousel1.png'
-import img2 from '../../images/carousel2.png'
-import img3 from '../../images/carousel3.png'
+import Carousel1 from '../../images/carousel1.png'
+import Carousel2 from '../../images/carousel2.png'
+import Carousel3 from '../../images/carousel3.png'
 import '../carousel/carousel.css'
 import React  from 'react';
 
@@ -12,7 +12,7 @@ function CarouselFade() {
         <img
             id='carousel-img'
           className="carousel-img d-block w-100"
-          src={img1}
+          src={Carousel1}
           alt="First slide"
         />
         <Carousel.Caption className='titulo-carousel'>
@@ -24,7 +24,7 @@ function CarouselFade() {
         <img
             id='carousel-img'
           className=" d-block w-100"
-          src={img2}
+          src={Carousel2}
           alt="Second slide"
         />
 
@@ -37,7 +37,7 @@ function CarouselFade() {
         <img
             id='carousel-img'
           className=" d-block w-100"
-          src={img3}
+          src={Carousel3}
           alt="Third slide"
         />
 
