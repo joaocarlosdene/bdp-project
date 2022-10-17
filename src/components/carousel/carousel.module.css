@@ -5,6 +5,9 @@
 .carousel_layout{
     background-color: black;
 }
+.img1{
+    background-image: url('../../images/carousel1.png');
+}
 .main_title{
     font-size: 3.5rem;
     font-family: 'Open Sans', sans-serif;

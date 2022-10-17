@@ -10,7 +10,7 @@ function CarouselFade() {
     <Carousel fade interval={2000} className={Styles.carousel_layout}>
       <Carousel.Item className={Styles.carousel_item}>
         <img
-          className="carousel-img d-block w-100"
+          className="d-block w-100"
           src={Carousel1}
           alt="First slide"
         />
