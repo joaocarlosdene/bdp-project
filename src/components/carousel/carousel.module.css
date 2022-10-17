@@ -1,11 +1,11 @@
-#carousel-img{
+.carousel_item{
     height: 750px;
     opacity: 70%;
 }
-.carousel-layout{
+.carousel_layout{
     background-color: black;
 }
-#main-title{
+.main_title{
     font-size: 3.5rem;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 1rem;
@@ -16,7 +16,7 @@
     margin-top: 15%;
     margin-left: -5rem;
 }
-#main-p {
+.main_p {
     font-size: 1.5rem;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 20%  ;
@@ -55,7 +55,7 @@
         margin-left: 0;
         margin-bottom:0  ;
     }
-    .titulo-carousel{
+    .titulo_carousel{
         width: 98% ;
         left: 0;
         justify-content: center;
