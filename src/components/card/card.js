@@ -11,6 +11,7 @@ function Cards(props) {
           <img className='img-col' src={props.img}></img>
           <h3>{props.h3}</h3>
           <p className='leia'>{props.p}</p>
+          <hr className='linha'></hr>
         </Link>
         
     </Col>
