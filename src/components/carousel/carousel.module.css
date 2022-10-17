@@ -5,9 +5,7 @@
 .carousel_layout{
     background-color: black;
 }
-.img1{
-    background-image: url('../../images/carousel1.png');
-}
+
 .main_title{
     font-size: 3.5rem;
     font-family: 'Open Sans', sans-serif;
@@ -29,13 +27,18 @@
     text-align: left;
     margin-left: -5rem;
 }
-
+.img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 65%;
+}
 @media (max-width:700px) {
-    #carousel-img{
+    .carousel_item{
         height: 230px;
         background-size: auto;
     }
-    #main-title{
+    .main_title{
         font-size: 1.6rem;
         font-family: 'Open Sans', sans-serif;
         margin-bottom: 0rem;
@@ -48,7 +51,7 @@
         font-weight: bold;
         text-transform: uppercase;
     }
-    #main-p {
+    .main_p {
         font-size: 1.2rem;
         font-family: 'Open Sans', sans-serif;
         text-shadow: black 2px 3px 2px;
@@ -60,8 +63,8 @@
     }
     .titulo_carousel{
         width: 98% ;
-        left: 0;
         justify-content: center;
         display: block;
+        left: 0;
     }
 }

@@ -10,7 +10,7 @@ function CarouselFade() {
     <Carousel fade interval={2000} className={Styles.carousel_layout}>
       <Carousel.Item className={Styles.carousel_item}>
         <img
-          className="d-block w-100"
+          className={Styles.img}
           src={Carousel1}
           alt="First slide"
         />
@@ -21,7 +21,7 @@ function CarouselFade() {
       </Carousel.Item>
       <Carousel.Item className={Styles.carousel_item}>
         <img
-          className=" d-block w-100"
+          className={Styles.img}
           src={Carousel2}
           alt="Second slide"
         />
@@ -33,7 +33,7 @@ function CarouselFade() {
       </Carousel.Item>
       <Carousel.Item className={Styles.carousel_item}>
         <img
-          className=" d-block w-100"
+          className={Styles.img}
           src={Carousel3}
           alt="Third slide"
         />
